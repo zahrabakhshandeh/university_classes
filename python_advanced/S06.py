@@ -4,6 +4,9 @@ x = 10
 print(x)
 # index value
 price = [200, 100, 500, 300]
+sum_p = sum(price)
+max_p = max(price)
+min_p = min(price)
 # index   0     1    2   3
 #                -3  -2 -1
 print(price)
