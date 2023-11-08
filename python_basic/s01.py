@@ -1,4 +1,5 @@
 # Variables
+
 ## variables name
 ### snake_case
 math_score = 16.2
