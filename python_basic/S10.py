@@ -3,7 +3,8 @@
 # ["hw", "pyython", "java"]
 # [True, True, False]
 # limit ====> task
-list_task = []
+# hw
+list_task = ["hw1", "hw2", "python"]
 list_status = []
 while True:
 	cmd = input("add,done, display, remove, edit, search, detail, exit: ")
@@ -43,12 +44,12 @@ while True:
 		else:
 			print(f"{task}: not found!")
 	elif cmd == "search":
-		task = input("your task to search: ")
-		if task in list_task:
-			i = list_task.index(task)
-			print(f"{task} ---> {list_status[i]}")
-		else:
-			print(f"{task} : not Foud!")
+		task = input("your task to search: ") #task = hw
+		for t in tasks: # t = hw1
+			if task in t: # if hw in hw1
+				i = list_task.index(task)
+				print(f"{task} ---> {list_status[i]}")
+			
 	elif cmd == "done":
 		task = input("your task: ")
 		if task in list_task:
