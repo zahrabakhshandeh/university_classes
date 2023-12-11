@@ -33,20 +33,3 @@ if score < 10 and score > 0: # if False
     print("no")
 print("end")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
