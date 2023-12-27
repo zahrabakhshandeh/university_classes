@@ -9,7 +9,6 @@ class Student:
 	def __str__(self):
 		return f"ID: {self.id_}, Name: {self.st_name}, Age: {self.age}, Scores: {self.scores}"
 
-
 	def calculate_avg(self):
 		sum_ = sum(self.scores)
 		avg = sum_ / len(self.scores)

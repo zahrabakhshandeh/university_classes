@@ -69,9 +69,12 @@ def detail():
 	print(f"max number: {max_p}, product: {product}")
 #..........main..............
 products = [] 
-numbers = [] 
+numbers = []
+file = "log.text" 
 for i in range(100):
 	cmd = input("add,details,display,remove,edit,search,exit: ")
+	with open(file, "a") as file1:
+		file1.write(cmd+"\n")
 	if cmd == "add":
 		add()
 	elif cmd == "display":
