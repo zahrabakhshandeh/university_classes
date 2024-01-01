@@ -1,0 +1,11 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "isMarried": false,
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "zipCode": null
+  },
+  "phoneNumbers": ["123-456-7890", "987-654-3210"]
+}
