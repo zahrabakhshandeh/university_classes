@@ -35,5 +35,7 @@ class Teacher(Person, University):
 		self.rank = rank or self.rank
 
 if __name__ == "__main__":
+	p1 = Person("12", "p1", 18)
 	t1 = Teacher("123", "t1", 28, 3)
 	print(t1)
+	print(p1)
